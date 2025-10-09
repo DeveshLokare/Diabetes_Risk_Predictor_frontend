@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Extra from "../components/Steps";
-import Footer from "../components/footer.tsx";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
