@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Alert from "../components/Alert";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 interface ShapDetail {
   abs: number;
