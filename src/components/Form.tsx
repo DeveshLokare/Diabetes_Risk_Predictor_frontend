@@ -139,8 +139,8 @@ export default function Form() {
   }
 
   return (
-    <div className="w-[80vw] mx-auto p-6 bg-gray-100 rounded-lg shadow-md mt-6">
-      <h2 className="text-4xl font-semibold mb-4">Diabetes Risk Assessmesnt Form</h2>
+    <div className="w-[80vw] mx-auto p-6  rounded-lg shadow-md mt-6">
+      <h2 className="max-sm:text-2xl text-3xl font-semibold mb-4">Diabetes Risk Assessmesnt Form</h2>
 
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Age */}

@@ -17,7 +17,7 @@ export default function Steps() {
   return (
     <section className="py-12 px-4">
       <div className="max-w-6xl mx-auto">    
-        <h1 className="font-bold text-4xl text-center text-gray-700">Get Results In Just 3 Simple Steps</h1>
+        <h1 className="font-bold text-4xl max-sm:text-3xl text-center text-gray-700">Get Results In Just 3 Simple Steps</h1>
         <div className="mt-14 flex flex-col sm:flex-row items-center justify-between gap-8 mb-8">
           {steps.map((s) => (
             <div key={s.id} className="flex-1 flex flex-col items-center text-center">
